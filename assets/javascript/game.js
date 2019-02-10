@@ -17,7 +17,8 @@ var resetAndStart = function () {
 
     randomResult = Math.floor(Math.random() * 120) + 19;
 
-    $("#result").html("Click on the Crystals to Guess This Number---" + randomResult);
+    $("#result").html("Click on the Crystals to Guess This Number.--   " + randomResult + "--   Each Crystal has Neen Assigned a Random Number.  Win the Game by Matching Your Total Score to the Random Number. A Total Score That is Above the Random Number Will Lose the Game. ");
+    
 
     for (var i = 0; i < 4; i++) {
 
@@ -32,7 +33,7 @@ var resetAndStart = function () {
 
         crystal.css({
             "backround-image":"url('" + images[i] + "')",
-            "background-size":"cover",
+            "background-size":"cover"
         });
 
         $(".crystals").append(crystal);
