@@ -9,6 +9,13 @@
     border:1px solid black;
     height: 450px;
     width: 400px;
+   
+}
+
+.crystal:hover {
+    box-shadow: 15px 15px 15px rgba (0, 0, 0, 0.5);
+    cursor: crosshair;
+    transition: box-shadow 1s;
 }
 
 .img{
@@ -26,6 +33,7 @@
     font-family: "Times New Roman", Times, serif;
     background-color: lightblue;
     border:1px solid black;
+
 
 
 }

@@ -9,10 +9,10 @@ var resetAndStart = function () {
     $(".crystals").empty();
 
     var images = [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQippCHDqN9kK9ViFLJFy8wBnsESl8ATSDI__B-Wsj0rM0XRh1VDg",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQAUZb9Mw5JeYAhufH9SnRO74nlQNIRnKF84BNYVloijvIWwxD4g",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLfxXidBEjy8Uz_wa6NFo98ozBfazAGWhp1oB7A-efj0B6smnj",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx3mSQQ_N1kzyoxy5E5Rhj2WQu6kd2PSmE72if0x-JqpiDKqketg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdZjBSd1Yh43LuyuXcsAm2BSOvRewTYldLIfiyNoTSqqH1A1lElQ",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtg3sC7tyXu_8mDjzFXJgynXqdlGN3KH6_yl6GhF3yNfmNSCvs",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz4bnpnbgvKy_ShdVcW_XX4jtEklI5eJpsrHF3Lp7nwr44MBrCGw",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRARNbZ97bw6jWl_UM9TWneyjlRcHvSU0yNykXaLrISlalI1FgM",
     ];
 
     randomResult = Math.floor(Math.random() * 120) + 19;
@@ -32,8 +32,9 @@ var resetAndStart = function () {
         });
 
         crystal.css({
-            "backround-image":"url('" + images[i] + "')",
-            "background-size":"cover"
+            "background-image":"url('" + images[i] + "')",
+            "background-size":"cover",
+            
         });
 
         $(".crystals").append(crystal);
